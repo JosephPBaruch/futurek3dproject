@@ -1,0 +1,10 @@
+mirrors:
+  "k3d-registry:5000":
+    endpoint:
+      - "https://k3d-registry:5000"
+  
+configs:
+  "k3d-registry:5000":
+    auth:
+      username: myuser
+      password: mypassword
